@@ -25,8 +25,8 @@ Examples
     var img64=require('image-base64-ftp')
 
     var strhost:'127.0.0.1'
-    var strhost:'127.0.0.1'
-    var strhost:'127.0.0.1'
+    var strusername:'username'
+    var strpassword:'password'
     
 
     async function tesPhoto(){
