@@ -1,7 +1,7 @@
 var Client = require('ftp');
 
 module.exports = {
-    getPhotoFtp: async (pathPhoto,ftpHost,ftpUsername,ftpPassword) => {
+    getImage64Ftp: async (pathPhoto,ftpHost,ftpUsername,ftpPassword) => {
         return new Promise((resolve, reject) => {
             data = ''
             result64 = ''
